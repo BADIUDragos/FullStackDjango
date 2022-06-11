@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Login</h1>
+    <h2>Please enter email and password</h2>
+
+    <input type="email" name="useremail" value="">
+    <input type="password" name="userpassword" value="">
+    <input type="submit" name="" value="Submit">
+
+    </form>
+
+    Using a label:
+
+    <form action="">
+        
+        <label>
+            Block1
+            <input type="text" name="" value="">
+        </label>
+        
+        <label>
+            Block2
+            <input type="text" name="" value="">
+        </label>
+        
+    </form>
+
+    Label with a for parameter
+
+    <form action="">
+        <label for="userinput">Enter input</label>
+        <input id="userinput" type="text" name="" value="" placeholder="Enter text">
+
+        <label for="username">Username: </label>
+        <input id="username" type="text" name="" value="" placeholder="Required" required>
+        <input type="submit" name="" value="Log in">
+    </form>
+
+    <h1>Hotel Feedback Form</h1>
+
+    <form action="" method="get">
+        <h2>Are you from the US or outsite the US</h2>
+
+        <label for="inusa">Inside: </label>
+        <input id="inusa" type="radio" name="location" id="">
+
+        <label for="outusa">Outside: </label>
+        <input id="outusa" type="radio" name="location" id="">
+
+        <h2>How was your service ? </h2>
+
+        <select name="stars" id="">
+            <option value="Great">3</option>
+            <option value="Ok">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <input type="submit" value="SUBMIT">
+
+        <h2>Any other Feedback ?</h2>
+        <textarea name="mytext" rows="8" cols="80"></textarea>
+        <input type="submit" name="" value="SUBMIT">
+
+    </form>
+
+</body>
+</html> 
